@@ -14,7 +14,7 @@ let age = 18;
 // PRIMITIVE TYPES : 
 
 // Number types : 
-let ageWithType: number = 22;
+let ageWithType: number = 22; // EXPLICITLY PROVIDING A TYPE
 
 // ageWithType = "eighteen"; //Throws error
 ageWithType = 18;
