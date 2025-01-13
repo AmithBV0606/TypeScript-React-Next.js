@@ -1,10 +1,11 @@
+import { PostProps } from "@/types";
 import React from "react";
 
-const PostCard = async (props: { title: string; desc: string }) => {
+const PostCard = async ({ title, body }: PostProps) => {
   return (
     <div className="postCard">
-      <h1>{props.title}</h1>
-      <p>{props.desc}</p>
+      <h1>{title}</h1>
+      <p>{body}</p>
     </div>
   );
 };
